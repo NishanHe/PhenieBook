@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_change_pass"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.yesq.pheniebook.ChangePassActivity">
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/label_curpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_curpass"
+        android:textSize="16sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/tv_curpass"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:text="@string/label_newpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/label_newpass"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/tv_newpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/label_passagain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_passagain"
+        android:textSize="16sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/tv_passagain"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btn_cofirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_confirm"
+        android:background="@drawable/button_style"
+        android:gravity="center_vertical|center_horizontal|center"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"/>
+</LinearLayout>

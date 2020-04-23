@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/proId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
+        android:gravity="center_horizontal"
+        android:padding="20dp"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/proName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
+        android:gravity="center_horizontal"
+        android:padding="20dp"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/proPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
+        android:gravity="center_horizontal"
+        android:padding="20dp"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/proNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
+        android:gravity="center_horizontal"
+        android:padding="20dp"
+        android:textColor="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/btn_buy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_style"
+        android:gravity="center_vertical|center_horizontal|center"
+        android:text="购买"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
+
+
+</LinearLayout>

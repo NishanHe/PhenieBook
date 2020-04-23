@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ptr="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yesq.pheniebook.InfoFragment"
+    android:orientation="vertical"
+        android:weightSum="1">
+
+    <ViewFlipper
+        android:id="@+id/flipper"
+        android:layout_width="fill_parent"
+        android:layout_height="170dp"
+        android:flipInterval="3000"
+        android:inAnimation="@anim/right_in"
+        android:outAnimation="@anim/right_out"></ViewFlipper>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <com.handmark.pulltorefresh.library.PullToRefreshListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fadingEdge="none"
+            android:fastScrollEnabled="false"
+            android:smoothScrollbar="true"
+            ptr:ptrAnimationStyle="rotate"
+            ptr:ptrHeaderTextColor="#ffffff"
+            ptr:ptrHeaderSubTextColor="#8f659c"
+            ptr:ptrHeaderBackground="@null"
+            />
+    </LinearLayout>
+
+</LinearLayout>

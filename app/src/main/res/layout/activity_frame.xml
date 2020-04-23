@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yesq.pheniebook.FrameActivity">
+
+    <FrameLayout
+        android:id="@+id/mHomeContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottomGroup">
+    </FrameLayout>
+
+
+    <RadioGroup
+        android:id="@+id/bottomGroup"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/ic_info"
+            android:gravity="center_vertical|center_horizontal|center"
+            android:text="@string/rdo_info_label"
+            tools:textColor="@color/colorPrimary" />
+
+        <RadioButton
+            android:id="@+id/radioPart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/ic_part"
+            android:gravity="center_vertical|center_horizontal|center"
+            android:text="@string/rdo_part_label"
+            tools:textColor="@color/colorPrimary" />
+
+        <RadioButton
+            android:id="@+id/radioChoose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/ic_choose"
+            android:gravity="center_vertical|center_horizontal|center"
+            android:text="@string/rdo_choose_label"
+            android:textColor="@color/colorPrimary" />
+
+        <RadioButton
+            android:id="@+id/radioShop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/ic_shop"
+            android:gravity="center_vertical|center_horizontal|center"
+            android:text="@string/rdo_shop_label"
+            android:textColor="@color/colorPrimary" />
+
+        <RadioButton
+            android:id="@+id/radioMy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="true"
+            android:drawableTop="@drawable/ic_my"
+            android:gravity="center_vertical|center_horizontal|center"
+            android:text="@string/rdo_my_label"
+            android:textColor="@color/colorPrimary" />
+    </RadioGroup>
+</RelativeLayout>
+
+<!--<fragment-->
+        <!--android:id="@+id/fragment_info"-->
+        <!--android:name="com.example.yesq.pheniebook.InfoFragment"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_weight="10"-->
+        <!--tools:layout="@layout/fragment_info" />-->
+
+    <!--<fragment-->
+        <!--android:id="@+id/fragment_part"-->
+        <!--android:name="com.example.yesq.pheniebook.PartFragment"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_weight="10"-->
+        <!--tools:layout="@layout/fragment_part" />-->
+    <!--<fragment-->
+        <!--android:id="@+id/fragment_choose"-->
+        <!--android:name="com.example.yesq.pheniebook.ChooseFragment"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_weight="10"-->
+        <!--tools:layout="@layout/fragment_choose" />-->
+
+
+
+
+    <!--<fragment-->
+        <!--android:id="@+id/fragment_shop"-->
+        <!--android:name="com.example.yesq.pheniebook.ShopFragment"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_weight="10"-->
+        <!--tools:layout="@layout/fragment_shop" />-->
+    <!--<fragment-->
+        <!--android:id="@+id/fragment_my"-->
+        <!--android:name="com.example.yesq.pheniebook.MyFragment"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_weight="10"-->
+        <!--tools:layout="@layout/fragment_my" />-->
+
+
+
